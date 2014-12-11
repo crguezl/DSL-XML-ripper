@@ -47,3 +47,6 @@ And here is an example of execution:
         A Long Expected Party
         A Shadow Of The Past
 
+See [Russ Olsen. 
+Eloquent Ruby. 
+Addison-Wesley Professional, 1st edition, 2011.](http://eloquentruby.com/)
