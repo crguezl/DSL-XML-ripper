@@ -6,6 +6,6 @@ task :run do
 end
 
 desc "run xripper for a script with errors"
-task :run do
+task :runerr do
   sh "ruby -I. xripper sample_err.xr fellowship.xml"
 end
