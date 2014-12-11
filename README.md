@@ -2,7 +2,7 @@ This repo implements a DSL for the processing
 of XML documents like this one:
 
     [~/chapter8ReflectionandMetaprogramming/DSL/xmlripper(master)]$ cat fellowship.xml 
-<?xml version="1.0" encoding="UTF-8" ?>
+    <?xml version="1.0" encoding="UTF-8" ?>
       <document>
         <title>The Fellowship of the Ring</title>
         <author>J. R. R. Tolken</author>
