@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+$: << '.'
 
-require 'xml_ripper_v2'
+require 'xml_ripper_v3'
 
 scriptname = ARGV.shift
 xmlfile = ARGV.shift

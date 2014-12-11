@@ -8,7 +8,7 @@ class XmlRipper
     @after_action  = proc { }
 
     if path and File.exists? path then
-      instance_eval( File.read( path ) )
+      instance_eval( File.read( path ), path, 1 )
     elsif block_given?
       if block.arity < 1
         instance_eval( &block ) 
