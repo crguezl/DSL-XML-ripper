@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'xml_ripper_v2'
+
+scriptname = ARGV.shift
+xmlfile = ARGV.shift
+
+if scriptname and xmlfile and File.exists? scriptname and File.exists? xmlfile
+  XmlRipper.new(scriptname).run(xmlfile)
+else
+  puts "Usage:\n\t#$0 xripper_script file.xml"
+end

@@ -1,0 +1,13 @@
+puts "Compiling  ..."
+on_path '/document/title' do |t| 
+  puts "Title: "+t.text 
+end
+on_path '/document/author' do |a| 
+  a.text = "J.R.R. Tolkien"
+  puts "Author: "+a.text 
+end
+action { puts "Chapters: " }
+on_path '/document/chapter/title' do |ct| 
+  puts "  "+ct.text 
+end
+
